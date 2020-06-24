@@ -10,7 +10,7 @@ public final class WXConstants {
 
   public static String API_KEY;
 
-  public static String APP_KEY;
+  public static String APP_ID;
 
   public static String PARTNER_ID;
 
@@ -20,8 +20,8 @@ public final class WXConstants {
     API_KEY = apiKey;
   }
 
-  public static void setAppKey(String appKey) {
-    APP_KEY = appKey;
+  public static void setAppId(String appId) {
+    APP_ID = appId;
   }
 
   public static void setPartnerId(String partnerId) {

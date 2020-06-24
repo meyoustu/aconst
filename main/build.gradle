@@ -7,7 +7,7 @@ android {
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 29
-        versionName "2020.6.17.1546"
+        versionName "2020.6.24.925"
     }
 }
 
