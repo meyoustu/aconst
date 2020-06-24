@@ -16,6 +16,8 @@ public final class WXConstants {
 
   public static String APP_SECRET;
 
+  public static String OPERATION_PWD;
+
   public static void setApiKey(String apiKey) {
     API_KEY = apiKey;
   }
@@ -30,5 +32,9 @@ public final class WXConstants {
 
   public static void setAppSecret(String appSecret) {
     APP_SECRET = appSecret;
+  }
+
+  public static void setOperationPwd(String operationPwd) {
+    OPERATION_PWD = operationPwd;
   }
 }

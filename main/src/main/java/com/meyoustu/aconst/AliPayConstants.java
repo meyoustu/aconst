@@ -9,8 +9,13 @@ public final class AliPayConstants {
   private AliPayConstants() {}
 
   public static String APP_ID;
+  public static String PUBLIC_KEY;
 
   public static void setAppId(String appId) {
     APP_ID = appId;
+  }
+
+  public static void setPublicKey(String publicKey) {
+    PUBLIC_KEY = publicKey;
   }
 }
