@@ -3,6 +3,7 @@ package com.meyoustu.aconst.app;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
+import com.meyoustu.aconst.ManufacturerConstants;
 import com.meyoustu.aconst.SharedPrefsConstants;
 
 public class MainActivity extends AppCompatActivity {
@@ -13,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     setContentView(R.layout.activity_main);
     showToast(SharedPrefsConstants.KEY_IS_FIRST_OPEN_APP);
     showToast(SharedPrefsConstants.KEY_IS_FIRST_OPEN_TODAY);
+    showToast(ManufacturerConstants.IS_XIAOMI);
   }
 
   private void showToast(Object msg) {

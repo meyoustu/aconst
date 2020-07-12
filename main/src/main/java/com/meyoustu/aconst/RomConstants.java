@@ -9,6 +9,7 @@ import java.lang.reflect.Method;
  *
  * @author Liangcheng Juves
  */
+@Deprecated
 public final class RomConstants {
 
   private static final boolean invokeMethodReturnEmpty(String param)

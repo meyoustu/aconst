@@ -4,6 +4,8 @@
       <w>emui</w>
       <w>flyme</w>
       <w>funtouch</w>
+      <w>huawei</w>
+      <w>meizu</w>
       <w>miui</w>
       <w>oppo</w>
       <w>opporom</w>
@@ -11,6 +13,7 @@
       <w>smartisan</w>
       <w>umeng</w>
       <w>vivo</w>
+      <w>xiaomi</w>
     </words>
   </dictionary>
 </component>

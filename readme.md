@@ -16,6 +16,6 @@ allprojects {
 ### Step 2. Add the dependency
 ``` gradle
 dependencies {
-    implementation 'com.github.meyoustu:aconst:2020.7.1.2137'
+    implementation 'com.github.meyoustu:aconst:2020.7.12.949'
 }
 ```
